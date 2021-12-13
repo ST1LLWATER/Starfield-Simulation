@@ -18,7 +18,7 @@ function draw() {
   // console.log(frameCount);
   // let vol = mic.getLevel();
   // let speed = map(vol, 0, 1, 10, 50);
-  let speed = map(mouseX, 0, width, 10, 50);
+  let speed = map(mouseX, 0, width, 10, 40);
   // console.log(speed);
   let orientationX = map(mouseX, 0, width, 1, 3);
   let orientationY = map(mouseY, 0, width, 1, 3);
