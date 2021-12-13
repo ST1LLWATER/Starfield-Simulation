@@ -8,15 +8,15 @@ function setup() {
   for (let i = 0; i < amount; i++) {
     stars[i] = new Star();
   }
-  mic = new p5.AudioIn();
-  mic.start();
+  // mic = new p5.AudioIn();
+  // mic.start();
   // console.log(mic);
 }
 
 function draw() {
   background(0);
   // console.log(frameCount);
-  let vol = mic.getLevel();
+  // let vol = mic.getLevel();
   // let speed = map(vol, 0, 1, 10, 50);
   let speed = map(mouseX, 0, width, 10, 50);
   // console.log(speed);
